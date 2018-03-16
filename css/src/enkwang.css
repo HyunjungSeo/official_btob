@@ -1,0 +1,5 @@
+/* enkwang.css */
+/*max 480(mob) layout=======================*/
+@media screen and (max-width:480px) {
+#wrap,body{width: 100%; height: 100%;}
+/* headBox Design */
