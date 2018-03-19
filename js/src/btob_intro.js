@@ -11,5 +11,15 @@ headBtn.on('click',function(evt){
 	showGnbBox.slideToggle();
 });
 
+var iconBox = $('.member_picture').children('button');
+iconBox.on('click',function(e){
+	e.preventDefault();
+	var findAttr = $(this).children('a').attr('href');
+	// console.log(findAttr);
+	var offsetBox = $(findAttr).offset().top;
+	// console.log(offsetBox);
+	  $('html, body').animate({ scrollTop: offsetBox }, 500);
+});
+
 // jQuery end =================
 })(this.jQuery);

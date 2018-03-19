@@ -1,7 +1,7 @@
 /*btob_intro.css*/
 /*max 480(mob) layout=======================*/
 @media screen and (max-width:480px) {
-#wrap,body{width: 100%; height: 100%;}
+
 /* headBox Design */
   #headBox{width: 100%; height: 100%; position: relative;}
     #headBtn{width: 80px; height: 80px;	background-color: #0b2f77; position: fixed; top: 0; left: 0; z-index: 1000; padding: 15px 10px; box-sizing: border-box;}
@@ -20,6 +20,7 @@
      .member_picture{width: 100%; min-width: 400px; height: 100px;}
        .member_picture:nth-child(1),
        .member_picture:nth-child(3){margin-left: 60px;}
+       .face_picture:active{transition: all 300ms ease;}
          .face_picture{width: 100px; height: 100px; border-radius: 100%; background-color: #0b2f77; margin: 2px; background-repeat: no-repeat; background-size: contain; box-shadow: 1px 1px 2px #555;}
            .enkwang{background-image: url(../../img/enkwang/eunkwang_01.jpg);}
            .minhyuk{background-image: url(../../img/minhyunk/min_01.jpg);}
