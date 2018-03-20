@@ -1,0 +1,43 @@
+/*btob_intro.css*/
+/*max 480(mob) layout=======================*/
+@media screen and (max-width:480px) {
+
+/* headBox Design */
+  #headBox{width: 100%; height: 100%; position: relative;}
+    #headBtn{width: 80px; height: 80px;	background-color: #0b2f77; position: fixed; top: 0; left: 0; z-index: 700; padding: 15px 10px; box-sizing: border-box;}
+     #btobLogo{width: 100%; height: 100%; background-image: url(../../img/else/btob_logo.png); background-repeat: no-repeat; background-size: contain;}
+
+    #showGnbBox{width: 100%; height: 100%; background-color: rgba(11,47,119,0.9); position: fixed; top: 0; left: 0; z-index: 600;}
+      #gnb{width: 70%; height: 70%; position: absolute; top: 25%; left: 15%;}
+        .menu_shape{width: 100%; height: 20%; margin-bottom: 4%;background-image: url(../../img/else/manu_shape.svg); background-repeat: no-repeat; background-size: 100% auto; padding: 15px 50px; box-sizing: border-box; 
+        	filter: drop-shadow(1px 1px 2px #333);}
+          .menu_shape>a{display: block; width: 100%; height: 100%; font-size: 1.5rem; color: #555;}
+/* btob_intro main Design */
+#albumIntroduce{width: 100%; height: auto; background-color: #fff; position: absolute; top: 0; left: 0; padding: 40px; box-sizing: border-box; z-index: 100; min-width: 360px;}
+  #albumBox{width: 100%; height: auto;}
+    #albumBtob{width: 100%; height: 60px;}
+      #albumBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
+    #historyAlbum{width: 100%; height: auto; margin-top: 20px;}
+      .albumYears{width: 100%; height: auto;}
+        .albumYears>div{width: 60px; float: left; font-size: 1.2rem; color:#0b2f77; margin-top: 5px;}
+          .album_2018{height: 110px;}
+          .album_2017{height: 550px;}
+          .album_2016{height: 440px;}
+          .album_2015{height: 220px;}
+          .album_2014{height: 220px;}
+          .album_2013{height: 220px;}
+          .album_2012{height: 220px;}
+
+        .albumYears>ul{width: 220px; height: auto; float: right;}
+           .albumYears>ul>li{width: 100px; height: 100px; float: left; margin-left: 10px; margin-bottom: 10px; box-shadow: 1px 1px 2px rgba(0,0,0,0.5); cursor: pointer;}
+             .albumYears>ul>li>img{width: 100%; height: 100%;}
+
+#popUp{display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 800;}
+  #popUpBack{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 10%; box-sizing: border-box;}
+    .albumMore{width: 100%; height: 100%; overflow-y: auto;}
+      .albumMore>button{width: 50px; height: 50px; background-color: #0b2f70; position: fixed; top: 4%; left: 5%; border-radius: 100%; color:#fff; font-size: 2rem;}
+      .albumMore>button:hover{background-color: #f06;}
+      .albumMore>img{width: 100%; height: auto; display: none;} 
+  
+ #footBox{width: 100%; height: 30px; position: fixed; left: 0; bottom: 0; z-index: 500;}      
+  .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 30px; transition: all 300ms ease;}

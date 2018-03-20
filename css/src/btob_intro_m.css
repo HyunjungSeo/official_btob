@@ -15,7 +15,7 @@
 /* btob_intro main Design */
 #btobIntroduce{width: 100%; height: 100%; background-color: #fff; position: absolute; top: 0; left: 0; padding: 20px; box-sizing: border-box; z-index: 100;}
    #titleBtob{width: 100%; height: 60px;}
-     #titleBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 2rem; color: #0b2f77;}
+     #titleBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
    #memberBox{width: 100%; height: 300px; margin-top: 20px;}
      .member_picture{width: 100%; min-width: 400px; height: 100px;}
        .member_picture:nth-child(1),
