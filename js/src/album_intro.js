@@ -60,84 +60,97 @@ var newmenM = $('.newmenM');
 var btobBlue = $('.btobBlue');
 var btobBlueM = $('.btobBlueM');
 
-var escBtn = $('.albumMore').children('button');
-
-escBtn.on('click',function(e){
-	e.preventDefault();
-	popUp.slideUp();
-});
+var escBtn = $('#escBtnBox');
 
 bigWave.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
     bigWaveM.siblings('img').hide();
     bigWaveM.show();});
 
 brotherAct.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
     brotherActM.siblings('img').hide();
     brotherActM.show();});
 
 piece07.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece07M.siblings('img').hide();
     piece07M.show();});
 
 piece06.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece06M.siblings('img').hide();
     piece06M.show();});
 
 piece05.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece05M.siblings('img').hide();
     piece05M.show();});
 
 piece04.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece04M.siblings('img').hide();
     piece04M.show();});
 
 piece03.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece03M.siblings('img').hide();
     piece03M.show();});
 
 piece02.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece02M.siblings('img').hide();
     piece02M.show();});
 
 piece01.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  piece01M.siblings('img').hide();
     piece01M.show();});
 
 Feelem.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  FeelemM.siblings('img').hide();
     FeelemM.show();});
 
 newmen.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  newmenM.siblings('img').hide();
     newmenM.show();});
 
 btobBlue.on('click',function(e){
 	e.preventDefault();
 	popUp.slideDown();
+	escBtn.show();
 	  btobBlueM.siblings('img').hide();
     btobBlueM.show();});
+
+escBtn.on('click',function(e){
+	e.preventDefault();
+	popUp.slideUp();
+	escBtn.hide();
+});
 //--------------------------------------
 
 
