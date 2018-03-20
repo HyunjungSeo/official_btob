@@ -28,5 +28,5 @@
      .sns_area{width: 50%; height: 100%; float: left;}
        .sns_icon{width: 50px; height: 50px; float: left; margin-left: 30px; margin-right: 10px;}
          .sns_area>a{display: block; width: 150px; height: 50px; margin-left: 30px; line-height: 50px; color:#555;}
-         .insta{width: 50px; height: 50px; background-image: url(../../img/ilhoon/ih_insta.jpg); background-size: contain; border-radius: 100%;}
-         .twiter{width: 50px; height: 50px; background-image: url(../../img/ilhoon/ih_twiter.jpeg); background-size: contain; border-radius: 100%;}
+         .ih_insta{width: 50px; height: 50px; background-image: url(../../img/ilhoon/ih_insta.jpg); background-size: contain; border-radius: 100%;}
+         .ih_twiter{width: 50px; height: 50px; background-image: url(../../img/ilhoon/ih_twiter.jpeg); background-size: contain; border-radius: 100%;}

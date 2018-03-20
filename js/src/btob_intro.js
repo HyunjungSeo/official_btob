@@ -21,5 +21,15 @@ iconBox.on('click',function(e){
 	  $('html, body').animate({ scrollTop: offsetBox }, 500);
 });
 
+var topBtn = $('#footBox');
+topBtn.on('click',function(e){
+	e.preventDefault();
+	var findAttr = $(this).children('a').attr('href');
+	// console.log(findAttr);
+	var offsetBox = $(findAttr).offset().top;
+	// console.log(offsetBox);
+	  $('html, body').animate({ scrollTop: offsetBox }, 500);
+});
+
 // jQuery end =================
 })(this.jQuery);
