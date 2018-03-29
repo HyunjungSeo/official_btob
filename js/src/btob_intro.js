@@ -67,13 +67,14 @@ scrollView.on('mousewheel DOMMouseScroll', function(e){
 
 // ------------------------------------
 
-var wh = $(window).outerheight(true);
+var wh = $(window).outerHeight(true);
 var scroll_view = $('.scroll_view');
 
 console.log(wh);
 
 $(window).on('resize',function(){
-  var nwh = $(window).outerheight(true);
+	console.log('resize!!!!!!!');
+  var nwh = $(window).outerHeight(true);
 
   if( wh < nwh ){
   	scroll_view.css({height:nwh});
