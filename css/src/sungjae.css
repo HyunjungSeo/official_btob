@@ -1,0 +1,107 @@
+/* sungjae_m.css */
+/*max 480(mob) layout=======================*/
+@media screen and (max-width:480px) {
+#wrap,body{width: 100%; height: 100%;}
+/* sungjae Design */
+#sungjaeBox{width: 100%; height: 100%; background-image: url(../../img/sungjae/back_sj_01.jpg); background-size: cover; background-position:top left;}
+  #sungjaeArea{width: 80vw; max-width: 300px; height: auto; margin: 0 auto;}
+   #sungjaePhotoBox{width: 80vw; max-width: 300px; height: auto; margin-top: 20px; margin-bottom: 20px; float: left;}
+    .sungjae_open{width: 80vw; height: 39vw; max-width: 300px;max-height: 147px; margin-bottom: 1vw; font-size: 13px; color:#fff; text-align: center; line-height: 70px;}
+    /*------------------박스구성----------------------*/
+      .big_box{width: 39vw; height: 39vw; max-width: 147px; max-height: 147px;}
+      .small_box{width: 19vw; height: 39vw; max-width: 71px; max-height: 147px;}
+      .box_01{float: left;}
+      .box_02{float: left; margin-left: 1vw;}
+      .box_03{float: left;}
+      .box_04{float: left; margin-left: 1vw;}
+      .box_05{float: left;}
+      .box_06{float: left; margin-left: 1vw;}
+      .box_07{float: left; margin-left: 1vw;}
+    /*--------------------박스편집--------------------*/
+      .big_box>img{width: 100%; height: 100%;}
+      .name_box{width: 39vw; height: 19vw; max-width: 147px; max-height: 71px; margin-bottom: 1vw; background-color: #0b2f77; font-size: 20px;}
+      .info_box{width: 19vw; height: 19vw; max-width: 71px; max-height: 71px; float: left; background-color: #0b2f77; margin-right: 1vw;}
+      .info_box_height{width: 100%; height: 19vw; max-width: 71px; max-height: 71px; background-color: #0b2f77; margin-bottom: 1vw;}
+      .info_box:nth-of-type(2n){background-color: #fff; color:#0b2f77;}
+      .info_box_height:nth-of-type(2n-1){background-color: #fff; color:#0b2f77;}
+        .last{margin-right: 0;}
+        .topbox{margin-bottom: 1vw;}
+    /*----------------------------------------*/
+   #sj_snsBox{width: 100%; height: 50px;}
+     .sns_area{width: 48%; height: 100%; float: left;}
+     .sns_area:nth-child(1){margin-right: 4%;}
+       .sns_icon{width: 50px; height: 50px; float: left; margin-left: 10px; margin-right: 10px;}
+         .sns_area>a{display: block; width: 140px; height: 50px; margin-left: 10px; margin-right: 20px; line-height: 50px; color:#555;}
+         .sj_insta{width: 50px; height: 50px; background-image: url(../../img/sungjae/sj_insta.jpg); background-size: contain; border-radius: 100%;}
+         .sj_twiter{width: 50px; height: 50px; background-image: url(../../img/sungjae/sj_twiter.jpg); background-size: contain; border-radius: 100%;}
+       }
+
+/* sungjae_t.css */
+/*max 768(tablet) layout=======================*/
+@media screen and (min-width:480px) and (max-width:768px) {
+#wrap,body{width: 100%; height: 100%;}
+/* sungjae Design */
+#sungjaeBox{width: 100%; height: 100%; background-image: url(../../img/sungjae/back_sj_01.jpg); background-size: cover; background-position:top left;}
+  #sungjaeArea{width: 80vw;  max-width: 440px;  height:auto; margin: 0 auto;}
+   #sungjaePhotoBox{width: 80vw;  max-width: 440px;  height:auto; margin-top: 20px; margin-bottom: 20px; float: left;}
+    .sungjae_open{width: 80vw; height: auto; max-width: 440px; max-height: 212px;  margin-bottom: 4px; font-size: 3vw; color:#fff; text-align: center; line-height: 19vw;}
+    /*------------------박스구성----------------------*/
+      .big_box{width: 39vw; height: 39vw;  max-width: 212px; max-height: 212px; }
+      .small_box{width: 19vw; height: 39vw;  max-width: 105px; max-height: 212px; }
+      .box_01{float: left;}
+      .box_02{float: left; margin-left: 4px;}
+      .box_03{float: left;}
+      .box_04{float: left; margin-left: 4px;}
+      .box_05{float: left;}
+      .box_06{float: left; margin-left: 4px;}
+      .box_07{float: left; margin-left: 4px;}
+    /*--------------------박스편집--------------------*/
+      .big_box>img{width: 100%; height: 100%;}
+      .name_box{width: 39vw; height: 19vw;  max-width: 212px; max-height: 103px;  margin-bottom: 4px; background-color: #0b2f77; font-size: 20px;}
+      .info_box{width: 19vw; height: 19vw;  max-width: 103px; max-height: 103px;  float: left; background-color: #0b2f77; margin-right: 4px;}
+      .info_box_height{width: 100%; height: 19vw;  max-width: 103px; max-height: 103px;  background-color: #0b2f77; margin-bottom: 4px;}
+      .info_box:nth-of-type(2n){background-color: #fff; color:#0b2f77;}
+      .info_box_height:nth-of-type(2n-1){background-color: #fff; color:#0b2f77;}
+        .last{margin-right: 0;}
+        .topbox{margin-bottom: 4px;}
+    /*----------------------------------------*/
+   #sj_snsBox{width: 100%; height: 50px; margin-top: 20px;}
+     .sns_area{width: 48%; height: 100%; float: left;}
+     .sns_area:nth-child(1){margin-right: 4%;}
+       .sns_icon{width: 50px; height: 50px; float: left; margin-left: 30px; margin-right: 10px;}
+         .sns_area>a{display: block; width: 140px; height: 50px; margin-left: 30px; margin-right: 20px; line-height: 50px; color:#555;}
+         .sj_insta{width: 50px; height: 50px; background-image: url(../../img/sungjae/sj_insta.jpg); background-size: contain; border-radius: 100%;}
+         .sj_twiter{width: 50px; height: 50px; background-image: url(../../img/sungjae/sj_twiter.jpg); background-size: contain; border-radius: 100%;}
+       }
+
+/* sungjae_p.css */
+/*max 1366(pc) layout=======================*/
+@media screen and (min-width:769px) and (max-width:1366px) {
+#wrap,body{width: 100%; height: 100%;}
+/* sungjae Design */
+#sungjaeBox{width: 100%; height: 100%; background-image: url(../../img/sungjae/back_sj_02.jpg); background-size: cover; background-position:top left;}
+  #sungjaeArea{width: 90vw; height: 100%; margin: 0 auto;}
+    #sungjaePhotoBox{width: 80%; height: 100%; padding: 50px 0; margin: auto;}
+      .sungjae_open{width: 20vw; height: 43vw; margin-right: 0.4vw; float: left;}
+      .sungjae_open:nth-child(1){margin-left: 50px;}
+/* ------------------------------------ */
+        .big_box{width: 20vw; height: 20vw; margin-bottom: 0.4vw;} 
+          .big_box>img{width: 100%; height: 100%;}
+        .small_box{width: 20vw; height: 9.8vw; margin-bottom: 0.4vw;}
+          .name_box{width: 100%; height: 9.8vw; background-color: #fff; margin-bottom: 0.4vw; text-align: center; line-height: 9.8vw; font-size: 1.4rem;}
+          .info_box{width: 9.8vw; height: 9.8vw; margin-right: 0.4vw; float: left; background-color: #fff; text-align: center; line-height: 9.8vw;}
+          .info_box:nth-child(2n-1){background-color: #0b2f77; color:#fff;}
+          .box_03>.info_box:nth-child(1),
+          .box_03>.info_box:nth-child(2){margin-bottom: 0.4vw;}
+          .info_box_height{width: 9.8vw; height: 9.8vw; margin-right: 0.4vw; float: left; background-color: #fff; text-align: center; line-height: 9.8vw;}
+          .info_box_height:nth-child(1){background-color: #0b2f77; color:#fff;}
+          .mr_zero{margin-right: 0;}
+/* ------------------------------------ */
+  #sj_snsBox{width: 70%; height: 60px; margin: 0 auto;}
+    .sns_area{width: 45%; height: 100%; float: left;}
+    .sns_area:nth-child(1){margin-left: 30px}
+      .sns_icon{width: 60px; height: 60px; border-radius: 100%; background-size: contain; background-repeat: no-repeat; float: left;}
+        .sj_insta{background-image: url(../../img/sungjae/sj_insta.jpg);}
+        .sj_twiter{background-image: url(../../img/sungjae/sj_twiter.jpg);}
+        .sns_area>a{display: block; width: 100px; height: 100%; float: left; font-size: 1.2rem; line-height: 60px; margin-left: 10px;}
+    }

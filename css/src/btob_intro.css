@@ -1,0 +1,129 @@
+/*btob_intro.css*/
+/*max 480(mob) layout=======================*/
+@media screen and (max-width:480px) {
+
+/* btob_intro main Design */
+#btobIntroduce{width: 100%; height: 100%; background-color: #fff; position: absolute; top: 0; left: 0; padding: 20px; box-sizing: border-box; z-index: 100;}
+  #memberArea{width: 90%; height: 100%; margin: 0 auto;}
+   #titleBtob{width: 100%; height: 60px;}
+     #titleBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
+   #memberBox{width: 100%; height: 300px; margin-top: 20px;}
+     .member_picture{width: 100%; height: 100px;}
+       .member_picture:nth-child(1),
+       .member_picture:nth-child(3){width: 70%; margin-left: 12vw;}
+       .member_picture:nth-child(2){min-width: 308px;}
+       .face_picture:active{transition: all 300ms ease;}
+         .face_picture{width: 24vw; max-width: 24vw; height: 24vw; border-radius: 100%; background-color: #0b2f77; margin: 2px; background-repeat: no-repeat; background-size: contain; box-shadow: 1px 1px 2px #555;}
+           .enkwang{background-image: url(../../img/enkwang/eunkwang_01.jpg);}
+           .enkwang:hover{background-image: url(../../img/enkwang/eunkwang_02.jpg);}
+           .minhyuk{background-image: url(../../img/minhyunk/min_01.jpg);}
+           .minhyuk:hover{background-image: url(../../img/minhyunk/min_ho_01.jpg);}
+           .changsub{background-image: url(../../img/changsub/changsub_01.jpg);}
+           .changsub:hover{background-image: url(../../img/changsub/changsub_ho_01.jpg);}
+           .hyunsik{background-image: url(../../img/hyunsik/hyunsik_01.jpg);}
+           .hyunsik:hover{background-image: url(../../img/hyunsik/hyunsik_ho_01.jpg);}
+           .peniel{background-image: url(../../img/peniel/peniel_01.jpg);}
+           .peniel:hover{background-image: url(../../img/peniel/peniel_ho_01.jpg);}
+           .ilhoon{background-image: url(../../img/ilhoon/ilhoon_01.jpg);}
+           .ilhoon:hover{background-image: url(../../img/ilhoon/ilhoon_ho_01.jpg);}
+           .sungjae{background-image: url(../../img/sungjae/sungjae_01.jpg);}
+           .sungjae:hover{background-image: url(../../img/sungjae/sungjae_ho_01.jpg);}
+             .face_picture>a{display: block; width: 100%; height: 100%;}
+   #btobNameInfo{display: none;}
+
+   #moreInfomation{width: 100%; height: 140px; margin-top: 10px;}
+     .menu_shape_color{width: 100%; height: 30%; background-image: url(../../img/else/manu_shape_color.svg); background-repeat: no-repeat; background-size: contain; margin-bottom: 1.5%; margin-left: 8%;}
+       .menu_shape_color>a{display: block; width: 250px; height: 100%; text-align: center; line-height: 40px; color:#fff;}
+  
+ #footBox{width: 100%; height: 30px; position: fixed; left: 0; bottom: 0; z-index: 300;}      
+  .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 30px; transition: all 300ms ease;}
+  }
+
+/*btob_intro_t.css*/
+/*max 768(mob) layout=======================*/
+@media screen and (min-width:481px) and (max-width:768px) {
+
+/* btob_intro main Design */
+#btobIntroduce{width: 100%; height: 100%; background-color: #fff; position: absolute; top: 0; left: 0; padding: 20px; box-sizing: border-box; z-index: 100;}
+  #memberArea{width: 90%; height: 100%; margin: 0 auto;}
+   #titleBtob{width: 100%; height: 60px;}
+     #titleBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
+   #memberBox{width: 100%; height: auto; margin-top: 20px;}
+     .member_picture{width: 100%;  min-width: 390px;  height: 20vw; margin-left: 40px;}
+       .member_picture:nth-child(1),
+       .member_picture:nth-child(3){width: 60%; margin-left: 18vw;}
+       .face_picture:active{transition: all 300ms ease;}
+         .face_picture{width: 20vw; max-width: 20vw; height: 20vw; border-radius: 100%; background-color: #0b2f77; margin: 4px; background-repeat: no-repeat; background-size: contain; box-shadow: 1px 1px 2px #555;}
+           .enkwang{background-image: url(../../img/enkwang/eunkwang_01.jpg);}
+           .enkwang:hover{background-image: url(../../img/enkwang/eunkwang_02.jpg);}
+           .minhyuk{background-image: url(../../img/minhyunk/min_01.jpg);}
+           .minhyuk:hover{background-image: url(../../img/minhyunk/min_ho_01.jpg);}
+           .changsub{background-image: url(../../img/changsub/changsub_01.jpg);}
+           .changsub:hover{background-image: url(../../img/changsub/changsub_ho_01.jpg);}
+           .hyunsik{background-image: url(../../img/hyunsik/hyunsik_01.jpg);}
+           .hyunsik:hover{background-image: url(../../img/hyunsik/hyunsik_ho_01.jpg);}
+           .peniel{background-image: url(../../img/peniel/peniel_01.jpg);}
+           .peniel:hover{background-image: url(../../img/peniel/peniel_ho_01.jpg);}
+           .ilhoon{background-image: url(../../img/ilhoon/ilhoon_01.jpg);}
+           .ilhoon:hover{background-image: url(../../img/ilhoon/ilhoon_ho_01.jpg);}
+           .sungjae{background-image: url(../../img/sungjae/sungjae_01.jpg);}
+           .sungjae:hover{background-image: url(../../img/sungjae/sungjae_ho_01.jpg);}
+             .face_picture>a{display: block; width: 100%; height: 100%;}
+
+   #btobNameInfo{width: 100%; height: auto;}
+    .btob_groupname{width: 100%; height: auto; margin-top: 20px;}
+      .btob_groupname>dt{width: 100%; height: 40px; font-size: 1.2rem; color:#0b2f77;}
+      .btob_groupname>dd{width: 100%; height: 120px; font-size: 1rem; color:#555;}
+
+   #moreInfomation{width: 90%; height: auto; margin: 0 auto; margin-top: 10px;}
+     .menu_shape_color{width: 45%; height: 30px; background-image: url(../../img/else/manu_shape_color.svg); background-repeat: no-repeat; background-size: contain; float: left; margin-left: 10px; filter: drop-shadow(1px 1px 1px #333);}
+       .menu_shape_color>a{display: block; width: 80%; height: 100%; text-align: center; line-height: 30px; color:#fff; font-size: 1rem;}
+  
+  
+ #footBox{width: 100%; height: 40px; position: fixed; left: 0; bottom: 0; z-index: 300;}      
+  .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 40px; transition: all 300ms ease;}
+}
+
+/*btob_intro_p.css*/
+/*max 1366(pc) layout=======================*/
+@media screen and (min-width:769px) and (max-width:1366px) {
+
+/* btob_intro main Design */
+#btobIntroduce{width: 100%; height: 100%; background-color: #fff; position: absolute; top: 0; left: 0; padding: 20px; box-sizing: border-box; z-index: 100;}
+  #memberArea{width: 95%; height: 100%; margin: 0 auto;}
+   #titleBtob{width: 100%; height: 60px;}
+     #titleBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
+   #memberBox{width: 100%; height: auto; margin-top: 60px;}
+     .member_picture{width: 24vw; height: 12vw; float: left;}
+       .member_picture:nth-child(1){margin-left: 2vw;}
+       .member_picture:nth-child(2){width: 36vw;}
+       .face_picture:active{transition: all 300ms ease;}
+         .face_picture{width: 10vw; height: 10vw; border-radius: 100%; background-color: #0b2f77; margin: 1vw; background-repeat: no-repeat; background-size: contain; box-shadow: 1px 1px 2px #555; float: left;}
+           .enkwang{background-image: url(../../img/enkwang/eunkwang_01.jpg);}
+           .enkwang:hover{background-image: url(../../img/enkwang/eunkwang_02.jpg);}
+           .minhyuk{background-image: url(../../img/minhyunk/min_01.jpg);}
+           .minhyuk:hover{background-image: url(../../img/minhyunk/min_ho_01.jpg);}
+           .changsub{background-image: url(../../img/changsub/changsub_01.jpg);}
+           .changsub:hover{background-image: url(../../img/changsub/changsub_ho_01.jpg);}
+           .hyunsik{background-image: url(../../img/hyunsik/hyunsik_01.jpg);}
+           .hyunsik:hover{background-image: url(../../img/hyunsik/hyunsik_ho_01.jpg);}
+           .peniel{background-image: url(../../img/peniel/peniel_01.jpg);}
+           .peniel:hover{background-image: url(../../img/peniel/peniel_ho_01.jpg);}
+           .ilhoon{background-image: url(../../img/ilhoon/ilhoon_01.jpg);}
+           .ilhoon:hover{background-image: url(../../img/ilhoon/ilhoon_ho_01.jpg);}
+           .sungjae{background-image: url(../../img/sungjae/sungjae_01.jpg);}
+           .sungjae:hover{background-image: url(../../img/sungjae/sungjae_ho_01.jpg);}
+             .face_picture>a{display: block; width: 100%; height: 100%;}
+  #btobNameInfo{width: 100%; height: auto;}
+    .btob_groupname{width: 100%; height: auto; margin-top: 40px;}
+      .btob_groupname>dt{width: 100%; height: 50px; font-size: 1.5rem; color:#0b2f77;}
+      .btob_groupname>dd{width: 100%; height: 120px; font-size: 1rem; color:#555;}
+
+   #moreInfomation{width: 90%; height: auto; margin: 0 auto; margin-top: 40px;}
+     .menu_shape_color{width: 45%; height: 70px; background-image: url(../../img/else/manu_shape_color.svg); background-repeat: no-repeat; background-size: contain; float: left; margin-left: 30px;}
+       .menu_shape_color>a{display: block; width: 80%; height: 100%; text-align: center; line-height: 60px; color:#fff; font-size: 1.3rem;}
+  
+  
+ #footBox{width: 100%; height: 50px; position: fixed; left: 0; bottom: 0; z-index: 300;}      
+  .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 50px; transition: all 300ms ease;}
+}

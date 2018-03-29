@@ -1,0 +1,15 @@
+/*headBox_t.css*/
+/*max 480(mob) layout=======================*/
+@media screen and (max-width:480px) {
+/* headBox Design */
+  #headBox{width: 100%; height: 100%; position: relative;}
+    #headBtn{width: 70px; height: 70px;	background-color: #0b2f77; position: fixed; top: 0; left: 0; z-index: 500; padding: 15px 10px; box-sizing: border-box; box-shadow: 2px 2px 3px rgba(0,0,0,0.5);}
+     #btobLogo{width: 100%; height: 100%; background-image: url(../../img/else/btob_logo.png); background-repeat: no-repeat; background-size: contain;}
+
+    #showGnbBox{width: 100%; height: 100%; background-color: rgba(11,47,119,0.9); position: fixed; top: 0; left: 0; z-index: 400;}
+      #homeBtn{width: 50px; height: 50px; position: fixed; top: 35px; right: 50px; z-index: 600;}
+        #homeBtn>a{display: block; width: 100%; height: 100%; background-color: transparent; background-image: url(../../img/else/homeLogo.svg); background-repeat: no-repeat; background-size: 100% auto; filter: drop-shadow(2px 2px 2px #333);}
+      #gnb{width: 70%; height: 70%; position: absolute; top: 25%; left: 15%;}
+        .menu_shape{width: 100%; height: 20%; margin-bottom: 4%;background-image: url(../../img/else/manu_shape.svg); background-repeat: no-repeat; background-size: 100% auto; padding: 15px 50px; box-sizing: border-box; 
+        	filter: drop-shadow(1px 1px 2px #333);}
+          .menu_shape>a{display: block; width: 100%; height: 100%; font-size: 1.5rem; color: #555;}

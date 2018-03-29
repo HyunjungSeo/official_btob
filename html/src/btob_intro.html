@@ -17,15 +17,16 @@
     <link rel="stylesheet" href="../../css/base/reset.css">
     <link rel="stylesheet" href="../../css/base/common.css">
     <!-- use Css -->
-    <link rel="stylesheet" href="../../css/src/btob_intro_m.css">
-    <link rel="stylesheet" href="../../css/src/btob_intro_t.css">
-    <link rel="stylesheet" href="../../css/src/enkwang_m.css">
-    <link rel="stylesheet" href="../../css/src/minhyuk_m.css">
-    <link rel="stylesheet" href="../../css/src/changsub_m.css">
-    <link rel="stylesheet" href="../../css/src/hyunsik_m.css">
-    <link rel="stylesheet" href="../../css/src/peniel_m.css">
-    <link rel="stylesheet" href="../../css/src/ilhoon_m.css">
-    <link rel="stylesheet" href="../../css/src/sungjae_m.css">
+    <link rel="stylesheet" href="../../css/src/headBox.css">
+    <link rel="stylesheet" href="../../css/src/btob_intro.css">
+    <link rel="stylesheet" href="../../css/src/enkwang.css">   
+    <link rel="stylesheet" href="../../css/src/minhyuk.css">
+    <link rel="stylesheet" href="../../css/src/changsub.css">
+    <link rel="stylesheet" href="../../css/src/hyunsik.css">
+    <link rel="stylesheet" href="../../css/src/peniel.css">
+    <link rel="stylesheet" href="../../css/src/ilhoon.css">
+    <link rel="stylesheet" href="../../css/src/sungjae.css">
+
     <!-- faviconFile -->
 <!--     <link rel="apple-touch-icon" href="../../../favicon.png">
     <link rel="shortcut icon" href="../../../favicon.png" type="image/x-icon"> -->
@@ -58,12 +59,12 @@
        </div>
      </header>
 
-     <section id="btobIntroduce">
+     <section id="btobIntroduce" class="scroll_view">
        <div id="memberArea">
          <div id="titleBtob">
            <h2>BTOB</h2>
          </div>
-         <div id="memberBox">
+         <div id="memberBox" class="clearfix">
            <div class="member_picture">
              <button type="button" class="face_picture enkwang">
                <a href="#enkwangBox"></a>
@@ -92,7 +93,14 @@
              </button>
            </div>
          </div>
-         <div id="moreInfomation">
+         <div id="btobNameInfo" class="clearfix">
+           <dl class="btob_groupname">
+             <dt>Born To Beat</dt>
+             <dd>‘Born To Beat(비트를 위해 탄생했다)’의 머리글자를 딴 조합으로 ‘새로운 음악(비트)과 무대를 선보이기 위해 탄생했다’는 의미와 ‘이기다’, ‘압도하다’는 뜻의 ‘음악으로 전 세계의 리스너들을 압도하기 위해 탄생했다’는 두 가지 팀 모티브를 지니며,
+             리더 서은광, 이민혁, 이창섭, 임현식, 프니엘, 정일훈, 육성재의 7인으로 구성되어 있습니다.</dd>
+           </dl>
+         </div>
+         <div id="moreInfomation" class="clearfix">
            <div class="menu_shape_color">
              <a href="#">약력</a>
            </div>
@@ -101,7 +109,373 @@
            </div>
          </div>
        </div>
-     </section> 
+     </section>
+
+ <!-- Eunkwang Box -->
+  <div id="enkwangBox" class="scroll_view">
+    <div id="enkwangArea" class="clearfix">
+      <div id="enkwangPhotoBox">
+        <div class="enkwang_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/enkwang/enkwang_01.jpg" alt="서은광 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">서은광</div>
+            <div class="info_box">BTOB리더</div>
+            <div class="info_box last mr_zero">메인보컬</div>
+          </div>
+        </div>
+        <div class="enkwang_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">901122</div>
+            <div class="info_box last topbox mr_zero">용인</div>
+            <div class="info_box">뮤지컬배우</div>
+            <div class="info_box last mr_zero">보컬리스트</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/enkwang/enkwang_03.jpg" alt="서은광 이미지">
+          </div>
+        </div>
+        <div class="enkwang_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">장남</div>
+            <div class="info_box_height last mr_zero">말띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/enkwang/enkwang_02.jpg" alt="서은광 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">BTOB첫째</div>
+            <div class="info_box_height last mr_zero">예능돌</div>
+          </div>
+        </div>
+        <div id="ek_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon ek_insta"></div>
+          <a href="https://www.instagram.com/btob_silver_light/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon ek_twiter"></div>
+          <a href="https://twitter.com/btob_sekwang"> 트위터</a>
+        </div>
+      </div>
+      </div>    
+    </div>
+  </div> 
+
+ <!-- minhyuk Box -->
+ <div id="minhyukBox" class="scroll_view">
+    <div id="minhyukArea" class="clearfix">
+      <div id="minhyukPhotoBox">
+        <div class="minhyuk_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/minhyunk/min_02.jpg" alt="이민혁 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">이민혁</div>
+            <div class="info_box">BTOB엄마</div>
+            <div class="info_box last mr_zero">서브래퍼</div>
+          </div>
+        </div>
+        <div class="minhyuk_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">901129</div>
+            <div class="info_box last topbox mr_zero">서울</div>
+            <div class="info_box">래퍼 허타</div>
+            <div class="info_box last mr_zero">작곡가</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/minhyunk/min_03.jpg" alt="이민혁 이미지">
+          </div>
+        </div>
+        <div class="minhyuk_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">차남</div>
+            <div class="info_box_height last mr_zero">말띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/minhyunk/min_04.jpg" alt="이민혁 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">BTOB둘째</div>
+            <div class="info_box_height last mr_zero">체육돌</div>
+          </div>
+        </div>
+        <div id="mh_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon mh_insta"></div>
+          <a href="https://www.instagram.com/hutazone/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon mh_twiter"></div>
+          <a href="https://twitter.com/btob2mh/"> 트위터</a>
+        </div>
+      </div>
+      </div>   
+    </div>
+  </div>
+
+<!-- changsub Box -->
+<div id="changsubBox" class="scroll_view">
+    <div id="changsubArea" class="clearfix">
+      <div id="changsubPhotoBox">
+        <div class="changsub_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/changsub/changsub_02.jpg" alt="이창섭 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">이창섭</div>
+            <div class="info_box">아메리카노</div>
+            <div class="info_box last mr_zero">서브보컬</div>
+          </div>
+        </div>
+        <div class="changsub_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">910226</div>
+            <div class="info_box last topbox mr_zero">수원</div>
+            <div class="info_box">호원대</div>
+            <div class="info_box last mr_zero">뮤지컬배우</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/changsub/changsub_03.jpg" alt="이창섭 이미지">
+          </div>
+        </div>
+        <div class="changsub_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">장남</div>
+            <div class="info_box_height last mr_zero">양띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/changsub/changsub_04.jpg" alt="이창섭 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">BTOB셋째</div>
+            <div class="info_box_height last mr_zero">음색깡패</div>
+          </div>
+        </div>
+        <div id="cs_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon cs_insta"></div>
+          <a href="https://www.instagram.com/lee_cs_btob/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon cs_twiter"></div>
+          <a href="https://twitter.com/leecs_btob"> 트위터</a>
+        </div>
+      </div>
+      </div> 
+    </div>
+  </div>
+
+<!-- hyunsik Box -->
+<div id="hyunsikBox" class="scroll_view">
+    <div id="hyunsikArea" class="clearfix">
+      <div id="hyunsikPhotoBox">
+        <div class="hyunsik_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/hyunsik/hyunsik_02.jpg" alt="임현식 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">임현식</div>
+            <div class="info_box">눈웃음</div>
+            <div class="info_box last mr_zero">리드보컬</div>
+          </div>
+        </div>
+        <div class="hyunsik_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">920307</div>
+            <div class="info_box last topbox mr_zero">서울</div>
+            <div class="info_box">호원대</div>
+            <div class="info_box last mr_zero">작곡가</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/hyunsik/hyunsik_03.jpg" alt="임현식 이미지">
+          </div>
+        </div>
+        <div class="hyunsik_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">차남</div>
+            <div class="info_box_height last mr_zero">원숭이띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/hyunsik/hyunsik_04.jpg" alt="임현식 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">BTOB넷째</div>
+            <div class="info_box_height last mr_zero">임선배</div>
+          </div>
+        </div>
+        <div id="hs_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon hs_insta"></div>
+          <a href="https://www.instagram.com/imhyunsik/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon hs_twiter"></div>
+          <a href="https://twitter.com/btob_imhyunsik"> 트위터</a>
+        </div>
+      </div>
+      </div>      
+    </div>
+  </div>
+
+<!-- peniel Box -->
+<div id="penielBox" class="scroll_view">
+    <div id="penielArea" class="clearfix">
+      <div id="penielPhotoBox">
+        <div class="peniel_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/peniel/peniel_02.jpg" alt="프니엘 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">프니엘</div>
+            <div class="info_box">신동근</div>
+            <div class="info_box last mr_zero">서브래퍼</div>
+          </div>
+        </div>
+        <div class="peniel_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">930310</div>
+            <div class="info_box last topbox mr_zero">시카고</div>
+            <div class="info_box">영상감독</div>
+            <div class="info_box last mr_zero">사진작가</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/peniel/peniel_03.jpg" alt="프니엘 이미지">
+          </div>
+        </div>
+        <div class="peniel_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">차남</div>
+            <div class="info_box_height last mr_zero">닭띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/peniel/peniel_04.jpg" alt="프니엘 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">다섯째</div>
+            <div class="info_box_height last mr_zero">어깨깡패</div>
+          </div>
+        </div>
+        <div id="pn_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon pn_insta"></div>
+          <a href="https://www.instagram.com/btobpeniel/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon pn_twiter"></div>
+          <a href="https://twitter.com/penielshin"> 트위터</a>
+        </div>
+      </div>
+      </div>    
+    </div>
+  </div>
+
+<!-- ilhoon Box -->
+<div id="ilhoonBox" class="scroll_view">
+    <div id="ilhoonArea" class="clearfix">
+      <div id="ilhoonPhotoBox">
+        <div class="ilhoon_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/ilhoon/ilhoon_02.jpg" alt="정일훈 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">정일훈</div>
+            <div class="info_box">솔로가수</div>
+            <div class="info_box last mr_zero">메인래퍼</div>
+          </div>
+        </div>
+        <div class="ilhoon_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">941004</div>
+            <div class="info_box last topbox mr_zero">서울</div>
+            <div class="info_box">JOO동생</div>
+            <div class="info_box last mr_zero">작곡가</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/ilhoon/ilhoon_03.jpg" alt="정일훈 이미지">
+          </div>
+        </div>
+        <div class="ilhoon_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">차남</div>
+            <div class="info_box_height last mr_zero">개띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/ilhoon/ilhoon_04.jpg" alt="정일훈 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">여섯째</div>
+            <div class="info_box_height last mr_zero">천사</div>
+          </div>
+        </div>
+        <div id="ih_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon ih_insta"></div>
+          <a href="https://www.instagram.com/ilhoonmj/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon ih_twiter"></div>
+          <a href="https://twitter.com/btob_ill"> 트위터</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<!-- sungjae Box -->
+<div id="sungjaeBox" class="scroll_view">
+    <div id="sungjaeArea" class="clearfix">
+      <div id="sungjaePhotoBox">
+        <div class="sungjae_open clearfix">
+          <div class="box_01 big_box">
+            <img src="../../img/sungjae/sungjae_02.jpg" alt="육성재 이미지">
+          </div>
+          <div class="box_02 big_box">
+            <div class="name_box">육성재</div>
+            <div class="info_box">배우</div>
+            <div class="info_box last mr_zero">서브보컬</div>
+          </div>
+        </div>
+        <div class="sungjae_open clearfix">
+          <div class="box_03 big_box">
+            <div class="info_box topbox">950502</div>
+            <div class="info_box last topbox mr_zero">용인</div>
+            <div class="info_box">도깨비</div>
+            <div class="info_box last mr_zero">연기자</div>
+          </div>
+          <div class="box_04 big_box">
+            <img src="../../img/sungjae/sungjae_03.jpg" alt="육성재 이미지">
+          </div>
+        </div>
+        <div class="sungjae_open clearfix">
+          <div class="box_05 small_box">
+            <div class="info_box_height last topbox">차남</div>
+            <div class="info_box_height last mr_zero">돼지띠</div>
+          </div>
+          <div class="box_06 big_box">
+            <img src="../../img/sungjae/sungjae_04.jpg" alt="육성재 이미지">
+          </div>
+          <div class="box_07 small_box">
+            <div class="info_box_height last topbox">BTOB막내</div>
+            <div class="info_box_height last mr_zero">육잘또</div>
+          </div>
+        </div>
+        <div id="sj_snsBox">
+        <div class="sns_area">
+          <div class="sns_icon sj_insta"></div>
+          <a href="https://www.instagram.com/yook_can_do_it/"> 인스타그램</a>
+        </div>
+        <div class="sns_area">
+          <div class="sns_icon sj_twiter"></div>
+          <a href="https://twitter.com/btob_6sj"> 트위터</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- foot Box -->
      <footer id="footBox">
        <a href="#btobIntroduce" class="topBtn">TOP</a>
      </footer>
@@ -109,6 +483,6 @@
   <script src="../../js/base/jquery.min.js"></script>
   <script src="../../js/base/jquery-ui.min.js"></script>
   <script src="../../js/src/btob_intro.js"></script>
-  <script src="../../js/src/btob_intro_base.js"></script>
+  <script src="../../js/src/member_show.js"></script>
 </body>
 </html>

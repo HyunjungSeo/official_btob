@@ -1,12 +1,12 @@
-/* sungjae_m.css */
+/* ilhoon_m.css */
 /*max 480(mob) layout=======================*/
 @media screen and (max-width:480px) {
 #wrap,body{width: 100%; height: 100%;}
-/* sungjae Design */
-#sungjaeBox{width: 100%; height: 100%; background-color: rgba(48,160,198,0.3);}
-  #sungjaeArea{width: 80vw; max-width: 300px; height: auto; margin: 0 auto;}
-   #sungjaePhotoBox{width: 80vw; max-width: 300px; height: auto; margin-top: 20px; margin-bottom: 20px; float: left;}
-    .sungjae_open{width: 80vw; height: 39vw; max-width: 300px;max-height: 147px; margin-bottom: 1vw; font-size: 13px; color:#fff; text-align: center; line-height: 70px;}
+/* ilhoon Design */
+#ilhoonBox{width: 100%; height: 100%; background-color: rgba(48,160,198,0.5);}
+  #ilhoonArea{width: 80vw; max-width: 300px; height: auto; margin: 0 auto;}
+   #ilhoonPhotoBox{width: 80vw; max-width: 300px; height: auto; margin-top: 20px; margin-bottom: 20px; float: left;}
+    .ilhoon_open{width: 80vw; height: 39vw; max-width: 300px;max-height: 147px; margin-bottom: 1vw; font-size: 13px; color:#fff; text-align: center; line-height: 70px;}
     /*------------------박스구성----------------------*/
       .big_box{width: 39vw; height: 39vw; max-width: 147px; max-height: 147px;}
       .small_box{width: 19vw; height: 39vw; max-width: 71px; max-height: 147px;}
@@ -27,10 +27,10 @@
         .last{margin-right: 0;}
         .topbox{margin-bottom: 1vw;}
     /*----------------------------------------*/
-   #snsBox{width: 100%; height: 50px; margin:}
+   #ih_snsBox{width: 100%; height: 50px;}
      .sns_area{width: 48%; height: 100%; float: left;}
      .sns_area:nth-child(1){margin-right: 4%;}
        .sns_icon{width: 50px; height: 50px; float: left; margin-left: 10px; margin-right: 10px;}
          .sns_area>a{display: block; width: 140px; height: 50px; margin-left: 10px; margin-right: 20px; line-height: 50px; color:#555;}
-         .sj_insta{width: 50px; height: 50px; background-image: url(../../img/sungjae/sj_insta.jpg); background-size: contain; border-radius: 100%;}
-         .sj_twiter{width: 50px; height: 50px; background-image: url(../../img/sungjae/sj_twiter.jpg); background-size: contain; border-radius: 100%;}
+         .ih_insta{width: 50px; height: 50px; background-image: url(../../img/ilhoon/ih_insta.jpg); background-size: contain; border-radius: 100%;}
+         .ih_twiter{width: 50px; height: 50px; background-image: url(../../img/ilhoon/ih_twiter.jpeg); background-size: contain; border-radius: 100%;}

@@ -24,7 +24,7 @@ function ImportFile(selectName, fileName, bgIf){
 
 var baseUrl = './';
 var loadFile = [
-			['enkwang' , baseUrl + 'enkwang.html' ],
+			// ['enkwang' , baseUrl + 'enkwang.html' ],
 			['minhyuk' , baseUrl + 'minhyuk.html' ],
 			['changsub', baseUrl + 'changsub.html'],
 			['hyunsik' , baseUrl + 'hyunsik.html' ],
