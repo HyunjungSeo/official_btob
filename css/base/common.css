@@ -22,13 +22,12 @@
  
  
  /* accessibility.css */
- a:focus, button:focus,
+ /*a:focus, button:focus,*/
  input[type="submit"]:focus,
  input[type="reset"]:focus,
  input[type="image"]:focus,
  input[type="file"]:focus,
- input[type="button"]:focus{outline:2px solid #d07; outline-offset:3px;
-                           background-color:#d07; color:#fff; }
+ input[type="button"]:focus{border-bottom:2px solid #555;}
  
  input[type="text"]:focus,
  input[type="password"]:focus,

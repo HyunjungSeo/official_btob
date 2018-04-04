@@ -1,4 +1,4 @@
-/*max 768(tablet) layout=======================*/
+/*max 1366(pc) layout=======================*/
 @media screen and (max-width:1366px) {
 	/*design*/
  #wrap{width: 100%; min-width:auto; height: 100%; min-height: auto; background-color: #30a0c6;}

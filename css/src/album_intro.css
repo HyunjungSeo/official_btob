@@ -1,8 +1,8 @@
-/*btob_intro.css*/
+/*album_intro.css*/
 /*max 480(mob) layout=======================*/
 @media screen and (max-width:480px) {
 
-/* btob_intro main Design */
+/* album_intro main Design */
 #albumIntroduce{width: 100%; height: auto; background-color: #fff; position: absolute; top: 0; left: 0; padding: 20px 40px 40px; box-sizing: border-box; z-index: 100; min-width: 360px;}
   #albumBox{width: 100%; height: auto;}
     #albumBtob{width: 100%; height: 60px;}
@@ -10,13 +10,6 @@
     #historyAlbum{width: 100%; height: auto; margin-top: 20px;}
       .albumYears{width: 100%; height: auto;}
         .albumYears>div{width: 60px; float: left; font-size: 1.2rem; color:#0b2f77; margin-top: 5px;}
-          .album_2018{height: 110px;}
-          .album_2017{height: 550px;}
-          .album_2016{height: 440px;}
-          .album_2015{height: 220px;}
-          .album_2014{height: 220px;}
-          .album_2013{height: 220px;}
-          .album_2012{height: 220px;}
 
         .albumYears>ul{width: 220px; height: auto; float: right;}
            .albumYears>ul>li{width: 100px; height: 100px; float: left; margin-left: 10px; margin-bottom: 10px; box-shadow: 1px 1px 2px rgba(0,0,0,0.5); cursor: pointer;}
@@ -27,15 +20,15 @@
       .albumMore{width: 80%; height: 80%; overflow-y: auto; position: absolute; z-index: 800; top: 10%; left: 10%; box-shadow: 2px 2px 4px rgba(0,0,0,0.7);}
       .albumMore>img{width: 100%; height: auto; display: none; position: absolute; z-index: 800;} 
 #escBtnBox{ display: none;  width: 50px; height: 50px; position: fixed; top: 6%; right: 5%; z-index: 1000;}
-  #escBtnBox>button{width: 50px; height: 50px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem;}
-  #escBtnBox>button:hover{background-color: #f06;}
+  #escBtnBox>button{width: 50px; height: 50px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem; transform: rotateZ(0); transition: all 300ms ease;}
+  #escBtnBox>button:hover{background-color: #f06; transform: rotateZ(180deg);}
   
  #footBox{width: 100%; height: 30px; position: fixed; left: 0; bottom: 0; z-index: 400;}      
   .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 30px; transition: all 300ms ease;}
 }
 
-/*btob_intro_t.css*/
-/*max 768(mob) layout=======================*/
+/*album_intro_t.css*/
+/*max 768(tablet) layout=======================*/
 @media screen and (min-width:481px) and (max-width:768px) {
 
 /* btob_intro main Design */
@@ -45,16 +38,9 @@
       #albumBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
     #historyAlbum{width: 100%; height: auto; margin-top: 20px;}
       .albumYears{width: 100%; min-width: 451px; height: auto;}
-        .albumYears>div{width: 60px; float: left; font-size: 1.5rem; color:#0b2f77; margin-top: 5px;}
-          .album_2018{height: 130px;}
-          .album_2017{height: 390px;}
-          .album_2016{height: 390px;}
-          .album_2015{height: 130px;}
-          .album_2014{height: 130px;}
-          .album_2013{height: 260px;}
-          .album_2012{height: 260px;}
+        .albumYears>div{width: 20%; float: left; font-size: 1.5rem; color:#0b2f77; margin-top: 5px;}
 
-        .albumYears>ul{width: 390px; height: auto; float: right;}
+        .albumYears>ul{width: 80%; height: auto; float: right;}
            .albumYears>ul>li{width: 120px; height: 120px; float: left; margin-left: 10px; margin-bottom: 10px; box-shadow: 1px 1px 2px rgba(0,0,0,0.5); cursor: pointer;}
              .albumYears>ul>li>img{width: 100%; height: 100%;}
 
@@ -62,15 +48,15 @@
    #popUpBack{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 10%; box-sizing: border-box; position: absolute; z-index: 700;}
       .albumMore{width: 80%; height: 80%; overflow-y: auto; position: absolute; z-index: 800; top: 10%; left: 10%; box-shadow: 2px 2px 4px rgba(0,0,0,0.7);}
       .albumMore>img{width: 100%; height: auto; display: none; position: absolute; z-index: 800;} 
-#escBtnBox{ display: none;  width: 50px; height: 50px; position: fixed; top: 6%; right: 5%; z-index: 1000;}
-  #escBtnBox>button{width: 50px; height: 50px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem;}
-  #escBtnBox>button:hover{background-color: #f06;}
+#escBtnBox{ display: none;  width: 50px; height: 50px; position: fixed; top: 6%; right: 6%; z-index: 1000;}
+  #escBtnBox>button{width: 50px; height: 50px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem; transform: rotateZ(0); transition: all 300ms ease;}
+  #escBtnBox>button:hover{background-color: #f06; transform: rotateZ(180deg);}
   
  #footBox{width: 100%; height: 40px; position: fixed; left: 0; bottom: 0; z-index: 400;}      
   .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 40px; transition: all 300ms ease;}
   }
 
-/*btob_intro_p.css*/
+/*album_intro_p.css*/
 /*max 1366(pc) layout=======================*/
 @media screen and (min-width:769px) and (max-width:1366px) {
 
@@ -81,16 +67,9 @@
       #albumBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
     #historyAlbum{width: 100%; height: auto; margin-top: 20px;}
       .albumYears{width: 100%; min-width: 451px; height: auto;}
-        .albumYears>div{width: 60px; float: left; font-size: 1.5rem; color:#0b2f77; margin-top: 5px;}
-          .album_2018{height: 130px;}
-          .album_2017{height: 390px;}
-          .album_2016{height: 390px;}
-          .album_2015{height: 130px;}
-          .album_2014{height: 130px;}
-          .album_2013{height: 260px;}
-          .album_2012{height: 260px;}
+        .albumYears>div{width: 10%; float: left; font-size: 1.5rem; color:#0b2f77; margin-top: 5px;}
 
-        .albumYears>ul{width: 390px; height: auto; float: right;}
+        .albumYears>ul{width: 90%; height: auto; float: right;}
            .albumYears>ul>li{width: 120px; height: 120px; float: left; margin-left: 10px; margin-bottom: 10px; box-shadow: 1px 1px 2px rgba(0,0,0,0.5); cursor: pointer;}
              .albumYears>ul>li>img{width: 100%; height: 100%;}
 
@@ -98,9 +77,40 @@
    #popUpBack{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 10%; box-sizing: border-box; position: absolute; z-index: 700;}
       .albumMore{width: 80%; height: 80%; overflow-y: auto; position: absolute; z-index: 800; top: 10%; left: 10%; box-shadow: 2px 2px 4px rgba(0,0,0,0.7);}
       .albumMore>img{width: 100%; height: auto; display: none; position: absolute; z-index: 800;} 
-#escBtnBox{ display: none;  width: 50px; height: 50px; position: fixed; top: 6%; right: 5%; z-index: 1000;}
-  #escBtnBox>button{width: 50px; height: 50px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem;}
-  #escBtnBox>button:hover{background-color: #f06;}
+#escBtnBox{ display: none;  width: 60px; height: 60px; position: fixed; top: 6%; right: 8%; z-index: 1000;}
+  #escBtnBox>button{width: 60px; height: 60px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem; transform: rotateZ(0); transition: all 300ms ease;}
+  #escBtnBox>button:hover{background-color: #f06; transform: rotateZ(180deg);}
   
  #footBox{width: 100%; height: 40px; position: fixed; left: 0; bottom: 0; z-index: 400;}      
   .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 40px; transition: all 300ms ease;}
+}
+
+
+/*album_intro_pf.css*/
+/*min 1367(pc) layout=======================*/
+@media screen and (min-width:1367px) {
+
+/* btob_intro main Design */
+#albumIntroduce{width: 100%; height: auto; background-color: #fff; position: absolute; top: 0; left: 0; padding: 20px 40px 40px; box-sizing: border-box; z-index: 100; min-width: 360px;}
+  #albumBox{width: 100%; height: auto;}
+    #albumBtob{width: 100%; height: 60px;}
+      #albumBtob>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; text-align: center; line-height: 70px; font-size: 1.7rem; color: #0b2f77;}
+    #historyAlbum{width: 100%; height: auto; margin-top: 20px;}
+      .albumYears{width: 100%; min-width: 451px; height: auto;}
+        .albumYears>div{width: 10%; float: left; font-size: 1.5rem; color:#0b2f77; margin-top: 5px;}
+
+        .albumYears>ul{width: 90%; height: auto; float: right;}
+           .albumYears>ul>li{width: 120px; height: 120px; float: left; margin-left: 10px; margin-bottom: 10px; box-shadow: 1px 1px 2px rgba(0,0,0,0.5); cursor: pointer;}
+             .albumYears>ul>li>img{width: 100%; height: 100%;}
+
+#popUp{display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 700;}
+   #popUpBack{width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); padding: 10%; box-sizing: border-box; position: absolute; z-index: 700;}
+      .albumMore{width: 80%; height: 80%; overflow-y: auto; position: absolute; z-index: 800; top: 10%; left: 10%; box-shadow: 2px 2px 4px rgba(0,0,0,0.7);}
+      .albumMore>img{width: 100%; height: auto; display: none; position: absolute; z-index: 800;} 
+#escBtnBox{ display: none;  width: 60px; height: 60px; position: fixed; top: 6%; right: 8%; z-index: 1000;}
+  #escBtnBox>button{width: 60px; height: 60px; background-color: #0b2f70;  border-radius: 100%; color:#fff; font-size: 2rem; transform: rotateZ(0); transition: all 300ms ease;}
+  #escBtnBox>button:hover{background-color: #f06; transform: rotateZ(180deg);}
+  
+ #footBox{width: 100%; height: 40px; position: fixed; left: 0; bottom: 0; z-index: 400;}      
+  .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 40px; transition: all 300ms ease;}
+}

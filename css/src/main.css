@@ -1,0 +1,85 @@
+/*max 480(mob) layout=======================*/
+@media screen and (max-width:480px) {
+	/*design*/
+ #wrap{width: 100%; min-width:auto; height: 100%; min-height: auto; background-color: #0b2f77; position: relative;}
+   #headBox{width: 100%; height: 90%; padding: 5%; box-sizing: border-box; position: absolute; top: 0; left: 0;}
+    #bgiBtob{width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-image: url(../../img/btobAll/btob_01.jpg); opacity: 0.2; background-size: cover;}
+     #btobLogo{width: 40vw; height: 40vw; margin-left: 25vw; margin-top: 15%; background-image: url(../../img/else/btob_logo.png); background-repeat: no-repeat; background-size: contain;}
+     h1{width: 70%; height: 8%; color: #fff; border-bottom: 4px solid #fff; font-size: 1.5rem; text-align: center; margin-left: 15%;}
+
+    #gnb{width: 80%; height: 40%; margin-top: 30px; position: absolute; left: 10%;}
+      .gnb_go{width: 100%; height: 15%; margin-top: 10px; text-align: center; font-size: 1.3rem;}
+      .gnb_go>a{display: block; width: 100%; height: 100%; color: #ccc;}
+      .gnb_go:hover>a{color:#f06;}
+
+    #footBox{width: 100%; height: 10%; background-color: #fff; position: absolute; bottom: 0; left: 0; padding: 2%; box-sizing: border-box;}
+      .other_page{width: 33.333333%; height: 100%; float: left;}
+        .page_icon{width: 30px; height: 30px; background-color: #30a0c6; float: left; margin-right: 2%;}
+          .page_icon>img{width: 100%; height: 100%;}
+        .other_page>a{display: block; width: 68%; height: 90%; float: left; line-height: 38px;}
+      }
+
+/*max 768(tablet) layout=======================*/
+@media screen and (min-width:481px) and (max-width:768px) {
+  /*design*/
+ #wrap{width: 100%; min-width:auto; height: 100%; min-height: auto; background-color: #0b2f77; position: relative;}
+   #headBox{width: 100%; height: 90%; padding: 5%; box-sizing: border-box; position: absolute; top: 0; left: 0;}
+   #bgiBtob{width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-image: url(../../img/btobAll/btob_02.jpg); opacity: 0.2; background-size: cover;}
+     #btobLogo{width: 25vw; height: 25vw; margin-left: 32vw; margin-top: 50px; background-image: url(../../img/else/btob_logo.png); background-repeat: no-repeat; background-size: contain;}
+     h1{width: 70%; height: 8%; color: #fff; border-bottom: 4px solid #fff; font-size: 1.7rem; text-align: center; margin-left: 15%;}
+
+    #gnb{width: 80%; height: 60%; margin-top: 30px; position: absolute; left: 10%;}
+      .gnb_go{width: 100%; height: 13%; margin-top: 10px; text-align: center; font-size: 1.3rem;}
+      .gnb_go>a{display: block; width: 100%; height: 100%; color: #ccc;}
+      .gnb_go:hover>a{color:#f06;}
+
+    #footBox{width: 100%; height: 10%; background-color: #fff; position: absolute; bottom: 0; left: 0; padding: 10px 20px 10px 50px; box-sizing: border-box;}
+      .other_page{width: 33.333333%; height: 100%; float: left;}
+        .page_icon{width: 40px; height: 40px; background-color: #30a0c6; float: left; margin-right: 2%;}
+          .page_icon>img{width: 100%; height: 100%;}
+        .other_page>a{display: block; width: 68%; height: 50px; float: left; margin-top: 10px;}
+      }
+
+/*max 1366(pc) layout=======================*/
+@media screen and (min-width:769px) and (max-width:1366px) {
+  /*design*/
+ #wrap{width: 100%; min-width:auto; height: 100%; min-height: auto; background-color: #0b2f77; position: relative;}
+   #headBox{width: 100%; height: 90%; padding: 5%; box-sizing: border-box; position: absolute; top: 0; left: 0;}
+   #bgiBtob{width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-image: url(../../img/btobAll/btob.png); opacity: 0.2; background-size: cover;}
+     #btobLogo{width: 15vw; height: 15vw; margin-left: 37vw; margin-top: 100px; margin-bottom: 20px; background-image: url(../../img/else/btob_logo.png); background-repeat: no-repeat; background-size: contain;}
+     h1{display: block; width: 70%; height: 80px; color: #fff; margin-bottom: 20px; border-bottom: 4px solid #fff; font-size: 1.7rem; text-align: center; margin-left: 15%;}
+
+    #gnb{width: 80%; height: 70px; margin-top: 50px; position: fixed; left: 10%;}
+      .gnb_go{width: 25%; height: 100%; text-align: center; font-size: 1.5rem; float: left;}
+      .gnb_go>a{display: block; width: 100%; height: 100%; color: #ccc;}
+      .gnb_go:hover>a{color:#f06;}
+
+    #footBox{width: 100%; height: 10%; background-color: #fff; position: absolute; bottom: 0; left: 0; padding: 10px 80px 10px 160px; box-sizing: border-box;}
+      .other_page{width: 33.333333%; height: 100%; float: left;}
+        .page_icon{width: 50px; height: 50px; background-color: #30a0c6; float: left; margin-right: 2%;}
+          .page_icon>img{width: 100%; height: 100%;}
+        .other_page>a{display: block; width: 68%; height: 50px; float: left; margin-top: 15px;}
+      }
+
+/*min 1367(pcfull) layout=======================*/
+@media screen and (min-width:1367px) {
+  /*design*/
+ #wrap{width: 100%; min-width:auto; height: 100%; min-height: auto; background-color: #0b2f77; position: relative;}
+   #headBox{width: 100%; height: 90%; padding: 5%; box-sizing: border-box; position: absolute; top: 0; left: 0;}
+   #bgiBtob{width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-image: url(../../img/btobAll/btob_04.jpg); opacity: 0.2; background-size: cover;}
+     #btobLogo{width: 15vw; height: 15vw; margin-left: 37vw; margin-top: 60px; margin-bottom: 20px; background-image: url(../../img/else/btob_logo.png); background-repeat: no-repeat; background-size: contain;}
+     h1{display: block; width: 70%; height: 80px; color: #fff; margin-bottom: 20px; border-bottom: 4px solid #fff; font-size: 1.7rem; text-align: center; margin-left: 15%;}
+
+    #gnb{width: 80%; height: 70px; margin-top: 50px; position: fixed; left: 10%;}
+      .gnb_go{width: 25%; height: 100%; text-align: center; font-size: 1.5rem; float: left;}
+      .gnb_go>a{display: block; width: 100%; height: 100%; color: #ccc;}
+      .gnb_go:hover>a{color:#f06;}
+
+    #footBox{width: 100%; height: 10%; background-color: #fff; position: absolute; bottom: 0; left: 0; padding: 10px 40px 10px 250px; box-sizing: border-box;}
+      .other_page{width: 33.333333%; height: 100%; float: left;}
+        .page_icon{width: 50px; height: 50px; background-color: #30a0c6; float: left; margin-right: 2%;}
+          .page_icon>img{width: 100%; height: 100%;}
+        .other_page>a{display: block; width: 68%; height: 50px; float: left; margin-top: 15px;}
+      }
+
+

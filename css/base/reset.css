@@ -64,6 +64,8 @@
  a, img,figcaption, figure{
    margin:0; padding:0; border:0; outline:0; 
    color:inherit;  font-size:inherit; font-family:inherit;}
+
+button{font-family: inherit;}
  
  table,tr,td,th,thead,tbody,tfoot{border-collapse:collapse; border-spacing:0; }
  thead{background-color:#d07; color:#fff; text-indent:0;}
@@ -86,7 +88,7 @@
  
  ul,ol,li{list-style:none; }
  a{text-decoration:none; color:#777;}
- a:hover, a:active{text-decoration:underline; color:#D07;}
+ a:hover{color:#f07;}
  
  
  code{ padding:6px; border:1px solid #777; background-color: #7af; }
