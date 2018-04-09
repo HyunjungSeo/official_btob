@@ -7,7 +7,7 @@
 
 var modalBox = $('#modalBox');
   modalBox.append('<div class="view_box"><button type="button" class="close"><i class="fa fa-times" aria-hidden="true"></i><span class="hidden">닫기</span></button><img></div><div class="bg_back"></div>'); 
-  modalBox.append('<div class="list_box clearfix"><ul></ul></div>'); 
+  modalBox.append('<div class="list_box clearfix"><ul class="clearfix"></ul></div>'); 
 
 var viewBox = $('.view_box');
 var listBox = $('.list_box').find('ul');
@@ -21,18 +21,21 @@ viewBox.hide();
 bgBack.hide();
 
 
-var jsonUrl = '../../js/data/j_180210_pyungchangShow.json';
+var jsonUrl = '../../js/data/picture_add.json';
 
 $.getJSON(jsonUrl, function(data){
   // console.log(data);
-  var i = 0;
+  data.reverse();
+console.log(data);
   var dataLength = data.length;
-  var baseDir = '../../img/btobAll/j_180210_pyungchangShow/';
+  var i = 0;
+  var baseDir = '../../img/btobAll/picture_add/';
   var thumDir = baseDir + 'thum/';
   var bigDir = baseDir + 'big/';
   for(; i<dataLength; i++){
 listBox.append('<li><button type="button"></button></li>');
 listBox.children('li').eq(i).find('button').append($('<img />',{alt:data[i].thum ,src:thumDir+data[i].file}));
+listBox.children('li').eq(i).find('button').append($('<p>',{text:data[i].thum}));
   }
 
 
@@ -50,7 +53,7 @@ var moreBtn = $('.more');
 
 
 var start = 8;
-var view = 4;
+var view = 8;
 // listBox.children('li').eq(9).nextAll().hide();
 listBox.children('li').hide();
 listLi.eq(start).prevAll().show();
@@ -130,10 +133,10 @@ var rightBtn = slideRight.children('button');
 
 
 // 2. 버튼 디자인 하기------------------------------
-slideLeft.css({width:'30px', height:'30px', zIndex:'2000', position:'absolute', top:'50%', marginTop:'-2.5%', left:0});
+slideLeft.css({width:'40px', height:'200px', zIndex:'2000', position:'absolute', top:'50%', marginTop:'-100px', left:0});
 leftBtn.css({width:'100%', height:'100%', fontSize:'20px',backgroundColor:'transparent', color:'rgba(11,47,119,0.7)'});
 
-slideRight.css({width:'30px', height:'30px', zIndex:'2000', position:'absolute', top:'50%', marginTop:'-2.5%', right:0});
+slideRight.css({width:'40px', height:'200px', zIndex:'2000', position:'absolute', top:'50%', marginTop:'-100px', right:0});
 rightBtn.css({width:'100%', height:'100%', fontSize:'20px',backgroundColor:'transparent', color:'rgba(11,47,119,0.7)'});
 
 

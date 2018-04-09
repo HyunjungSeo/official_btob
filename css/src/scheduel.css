@@ -1,0 +1,29 @@
+/* scheduel.css */
+/*max 480(mob) layout=======================*/
+
+
+#wrap,body{width: 100%; height: 100%;}
+
+@media screen and (max-width:480px) {
+.remaking{width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100; background-image: url(../../img/else/renuel_m.jpg); background-size: cover; background-position:top center;}
+}
+
+/*max 768(mob) tablet=======================*/
+@media screen and (min-width:481px) and (max-width:768px) {
+.remaking{width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100; background-image: url(../../img/else/renuel_t.jpg); background-size: cover; background-position:top center;}
+
+}
+
+/*max 768(pc) =======================*/
+@media screen and (min-width:769px) and (max-width:1366px) {
+.remaking{width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100; background-image: url(../../img/else/renuel_pcfull.jpg); background-size: cover; background-position:top center;}
+
+    }
+
+
+/*min 1367(pc full) =======================*/
+@media screen and (min-width:1367px) {
+.remaking{width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100; background-image: url(../../img/else/renuel_pcfull.jpg); background-size: cover; background-position:top center;}
+
+    }
+

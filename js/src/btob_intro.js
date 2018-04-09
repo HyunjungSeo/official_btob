@@ -31,6 +31,33 @@ topBtn.on('click',function(e){
 	  $('html, body').animate({ scrollTop: offsetBox }, 500);
 });
 
+var conBtn = $('#moreInfomation').children('.menu_shape_color').eq(0);
+var awaBtn = $('#moreInfomation').children('.menu_shape_color').eq(1);
+var conPopUp = $('#conPopUp');
+var awaPopUp = $('#awaPopUp');
+var escBtn = $('#escBtnBox');
+
+conBtn.on('click',function(e){
+	e.preventDefault();
+	conPopUp.slideDown();
+	escBtn.slideDown();
+});
+
+awaBtn.on('click',function(e){
+	e.preventDefault();
+	awaPopUp.slideDown();
+	escBtn.slideDown();
+});
+
+escBtn.on('click',function(e){
+	e.preventDefault();
+	conPopUp.slideUp();
+	awaPopUp.slideUp();
+	escBtn.hide();
+});
+
+
+
 //--------------------------------------------------------
 
 var arr = [];

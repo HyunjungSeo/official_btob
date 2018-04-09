@@ -22,15 +22,6 @@ iconBox.on('click',function(e){
 	  $('html, body').animate({ scrollTop: offsetBox }, 500);
 });
 
-var topBtn = $('#footBox');
-topBtn.on('click',function(e){
-	e.preventDefault();
-	var findAttr = $(this).children('a').attr('href');
-	// console.log(findAttr);
-	var offsetBox = $(findAttr).offset().top;
-	// console.log(offsetBox);
-	  $('html, body').animate({ scrollTop: offsetBox }, 500);
-});
 
 //----------------------------------
 
@@ -38,6 +29,7 @@ var tab = $('#titlepicMov').children('h2');
 var tabLi = tab.children('button');
 var tabContent = $('#tabArea');
 var tabContentLi = tabContent.children('article');
+
 /*
 	tabLi.on('click',function(evt){
 		evt.preventDefault();
@@ -68,7 +60,8 @@ $.each(tabLi,function(i,v){
 		tabLi.eq(i).siblings().removeClass('select');
 		tabContentLi.eq(i).addClass('showPart');
 		tabContentLi.eq(i).siblings().removeClass('showPart');
-
+        tabContentLi.eq(i).find('.more').show();
+        tabContentLi.eq(i).siblings().find('.more').hide();
 	})
 })
 // jQuery end =================

@@ -6,16 +6,14 @@
 #picMovBox{width: 100%; height: 100%; background-color: #fff;  padding: 20px; box-sizing: border-box;}
   #picMovArea{width: 90%; height: 100%; margin: 0 auto;}
   #titlepicMov{width: 100%; height: 60px;}
-  #titlepicMov>h2{width: 50%; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; font-size: 1rem; color:#555;}
-    #titlepicMov>h2>button{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; background-color: transparent; font-family:"210 Manbalchungchun R"; color:#555;}
-    #titlepicMov>h2>span{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; color:#555;}
+  #titlepicMov>h2{width: 50%; min-width: 132px; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; font-size: 1rem; color:#555;}
+    #titlepicMov>h2>button{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; background-color: transparent; font-family:"210 Manbalchungchun R"; color:#999; font-size: 1rem;}
+    #titlepicMov>h2>span{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; color:#999;}
     #titlepicMov>h2>button:last-of-type{float: right;}
     #titlepicMov>h2>button.select{width: 33.3333%; height: 100%; text-align: center; line-height: 70px; font-size: 1.5rem; color: #0b2f77;}
 
 #tabArea{width: 100%; height: 80%; margin-top: 10px;}
   #pictureArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
-  #movieArea{width: 100%; height: 0; overflow: hidden;background-color: #83a;transition: all 300ms;}
-    #tabArea>article.showPart{width: 100%; height: 100%; overflow-y: auto;}
 
 .view_box{width: 90%; height: auto; min-height: 50px; border:3px solid #fff; background-color: #fff; box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.7); position: fixed; top: 10%; left:4%; z-index: 1000;}
   .view_box>button.close{position: absolute; top: -15px; right: -15px; width: 30px; height: 30px; background-color: #fa0; border-radius: 100%; font-size: 1rem; line-height: 36px; text-align: center; transition: all 500ms; background-color: #0b2f77;}
@@ -30,18 +28,180 @@
 .right_btn>button:focus,
 .right_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
 
-.list_box{width: 100%; height: auto;}
-.list_box>ul{width: 90%; height: 100%; margin: 0 auto;}
-.list_box>ul>li{width: 120px; height: 80px; float: left; margin-left: 5px; margin-bottom: 5px;}
-.list_box>ul>li>button{width: 100%; height: 100%; overflow: hidden;}
-.list_box>ul>li>button>img{width: 100%; height: auto;}
+.list_box{width: 100%; height: 50%; overflow: hidden;}
+.list_box>ul{width: 95%; min-width: 344px; height: 100%; margin-left: 5%;}
+.list_box>ul>li{width: 34vw; height: 30vw; min-height: 125px; float: left; margin-left: 5px; margin-bottom: 5px;}
+.list_box>ul>li>button{width: 100%; height: 100%; overflow: hidden; background-color: inherit;}
+.list_box>ul>li>button>img{width: 100%; height: 80px; background-size: contain;}
+.list_box>ul>li>button>p{width: 90%; height: 40px; font-size: 0.7rem; margin-left: 5%; color:#555;}
 
+  #movieArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+    #tabArea>article.showPart{width: 100%; height: 100%; overflow-y: auto;}
+    .m_list_box{width: 100%; height: 50%; margin: 0 auto;}
+     .m_list_box>ul{width: 95%; min-width: 344px; height: 100%; margin-left: 5%;}
+       .m_list_box>ul>li{width: 34vw; height: 30vw; min-height: 125px; float: left; margin-left: 5px; margin-bottom: 5px;}
+         .m_list_box>ul>li>a{display: block; width: 100%; height: 100%;}
+           .m_list_box>ul>li>a>img{width: 100%; height: 80px;}
+           .m_list_box>ul>li>a>p{width: 90%; height: 40px; font-size: 0.7rem; margin-left: 5%; color:#555; text-align: center;}
 
-.more{width: 100%; height: 30px; position: fixed; left: 0; bottom: 40px; text-align: center; line-height: 30px;}
+.more{width: 100%; height: 30px; position: fixed; left: 0; bottom: 10px; text-align: center; line-height: 30px; background-color: #fff;}
 .more:hover,
 .more:active{background-color: #f05; color:#fff; line-height: 30px;}
+}
 
-#footBox{width: 100%; height: 30px; position: fixed; left: 0; bottom: 0; z-index: 300;}      
-  .topBtn{display: block; width: 100%; height: 100%; background-color: #0b2f77; color:#fff; text-align: center; line-height: 30px; transition: all 300ms ease;}
 
+/*max 768(tablet) layout=======================*/
+@media screen and (min-width:481px) and (max-width:768px) {
+
+#wrap{width: 100%; height: 100%;}
+/* pic&mov Design */
+#picMovBox{width: 100%; height: 100%; background-color: #fff;  padding: 20px; box-sizing: border-box;}
+  #picMovArea{width: 90%; height: 100%; margin: 0 auto;}
+  #titlepicMov{width: 100%; height: 60px;}
+  #titlepicMov>h2{width: 50%; min-width: 132px; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; font-size: 1rem; color:#555;}
+    #titlepicMov>h2>button{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; background-color: transparent; font-family:"210 Manbalchungchun R"; color:#999; font-size: 1rem;}
+    #titlepicMov>h2>span{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; color:#999;}
+    #titlepicMov>h2>button:last-of-type{float: right;}
+    #titlepicMov>h2>button.select{width: 33.3333%; height: 100%; text-align: center; line-height: 70px; font-size: 1.5rem; color: #0b2f77;}
+
+#tabArea{width: 100%; height: 80%; margin-top: 10px;}
+  #pictureArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+
+.view_box{width: 90%; height: auto; min-height: 50px; border:3px solid #fff; background-color: #fff; box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.7); position: fixed; top: 10%; left:4%; z-index: 1000;}
+  .view_box>button.close{position: absolute; top: -15px; right: -15px; width: 40px; height: 40px; background-color: #fa0; border-radius: 100%; font-size: 1rem; line-height: 46px; text-align: center; transition: all 500ms; background-color: #0b2f77;}
+  .view_box>button.close:focus,
+  .view_box>button.close:hover{transform: rotate(180deg); background-color: #f05;}
+  .view_box>img{width: 100%; height: auto;}
+
+.left_btn>button.focus,
+.left_btn>button:focus,
+.left_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
+.right_btn>button.focus,
+.right_btn>button:focus,
+.right_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
+
+.list_box{width: 100%; height: 50%; overflow: hidden;}
+.list_box>ul{width: 95%; min-width: 344px; height: 100%; margin-left: 7%;}
+.list_box>ul>li{width: 34vw; height: 30vw; min-height: 125px; float: left; margin-left: 5px; margin-bottom: 5px;}
+.list_box>ul>li>button{width: 100%; height: 100%; overflow: hidden; background-color: inherit;}
+.list_box>ul>li>button>img{width: 100%; height: 70%; background-size: contain;}
+.list_box>ul>li>button>p{width: 90%; height: 40px; font-size: 0.8rem; margin-left: 5%; color:#555;}
+
+  #movieArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+    #tabArea>article.showPart{width: 100%; height: 100%; overflow-y: auto;}
+    .m_list_box{width: 100%; height: 50%; margin: 0 auto;}
+     .m_list_box>ul{width: 95%; min-width: 344px; height: 100%; margin-left: 7%;}
+       .m_list_box>ul>li{width: 34vw; height: 30vw; min-height: 125px; float: left; margin-left: 5px; margin-bottom: 5px;}
+         .m_list_box>ul>li>a{display: block; width: 100%; height: 100%;}
+           .m_list_box>ul>li>a>img{width: 100%; height: 70%;}
+           .m_list_box>ul>li>a>p{width: 90%; height: 40px; font-size: 0.8rem; margin-left: 5%; color:#555; text-align: center;}
+
+.more{width: 100%; height: 30px; position: fixed; left: 0; bottom: 10px; text-align: center; line-height: 30px; background-color: #fff;}
+.more:hover,
+.more:active{background-color: #f05; color:#fff; line-height: 30px;}
+}
+
+
+
+/*max 1366(pc) layout=======================*/
+@media screen and (min-width:769px) and (max-width:1367px) {
+
+#wrap{width: 100%; height: 100%;}
+/* pic&mov Design */
+#picMovBox{width: 100%; height: 100%; background-color: #fff;  padding: 20px; box-sizing: border-box;}
+  #picMovArea{width: 90%; height: 100%; margin: 0 auto;}
+  #titlepicMov{width: 100%; height: 60px;}
+  #titlepicMov>h2{width: 50%; min-width: 132px; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; font-size: 1rem; color:#555;}
+    #titlepicMov>h2>button{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; background-color: transparent; font-family:"210 Manbalchungchun R"; color:#999; font-size: 1rem;}
+    #titlepicMov>h2>span{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; color:#999;}
+    #titlepicMov>h2>button:last-of-type{float: right;}
+    #titlepicMov>h2>button.select{width: 33.3333%; height: 100%; text-align: center; line-height: 70px; font-size: 1.5rem; color: #0b2f77;}
+
+#tabArea{width: 100%; height: 80%; margin-top: 10px;}
+  #pictureArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+
+.view_box{width: 80%; height: auto; min-height: 50px; border:3px solid #fff; background-color: #fff; box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.7); position: fixed; top: 10%; left:10%; z-index: 1000;}
+  .view_box>button.close{position: absolute; top: -20px; right: -20px; width: 50px; height: 50px; background-color: #fa0; border-radius: 100%; font-size: 1.5rem; line-height: 59px; text-align: center; transition: all 500ms; background-color: #0b2f77;}
+  .view_box>button.close:focus,
+  .view_box>button.close:hover{transform: rotate(180deg); background-color: #f05;}
+  .view_box>img{width: 100%; height: auto;}
+
+.left_btn>button.focus,
+.left_btn>button:focus,
+.left_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
+.right_btn>button.focus,
+.right_btn>button:focus,
+.right_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
+
+.list_box{width: 100%; height: 50%; overflow: hidden;}
+.list_box>ul{width: 95%; max-width: 1133px; height: 100%; margin-left: 7%;}
+.list_box>ul>li{width: 18vw; height: 16vw; float: left; margin-left: 5px; margin-bottom: 5px;}
+.list_box>ul>li>button{width: 100%; height: 100%; overflow: hidden; background-color: inherit;}
+.list_box>ul>li>button>img{width: 100%; height: 70%; background-size: contain;}
+.list_box>ul>li>button>p{width: 90%; height: 50px; font-size: 0.9rem; margin-left: 5%; color:#555;}
+
+  #movieArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+    #tabArea>article.showPart{width: 100%; height: 100%; overflow-y: auto;}
+    .m_list_box{width: 100%; height: 50%; margin: 0 auto;}
+     .m_list_box>ul{width: 95%; max-width: 1133px; min-width: 344px; height: 100%; margin-left: 7%;}
+       .m_list_box>ul>li{width: 18vw; height: 16vw; min-height: 125px; float: left; margin-left: 5px; margin-bottom: 5px;}
+         .m_list_box>ul>li>a{display: block; width: 100%; height: 100%;}
+           .m_list_box>ul>li>a>img{width: 100%; height: 70%;}
+           .m_list_box>ul>li>a>p{width: 90%; height: 50px; font-size: 0.9rem; margin-left: 5%; color:#555; text-align: center;}
+
+.more{width: 100%; height: 30px; position: fixed; left: 0; bottom: 10px; text-align: center; line-height: 30px; background-color: #fff;}
+.more:hover,
+.more:active{background-color: #f05; color:#fff; line-height: 30px;}
+}
+
+
+/*min 1367(pc full) layout=======================*/
+@media screen and (min-width:1367px) {
+
+#wrap{width: 100%; height: 100%;}
+/* pic&mov Design */
+#picMovBox{width: 100%; height: 100%; background-color: #fff;  padding: 20px; box-sizing: border-box;}
+  #picMovArea{width: 90%; height: 100%; margin: 0 auto;}
+  #titlepicMov{width: 100%; height: 60px;}
+  #titlepicMov>h2{width: 50%; min-width: 132px; height: 100%; margin: 0 auto; border-bottom: 4px solid #0b2f77; font-size: 1rem; color:#555;}
+    #titlepicMov>h2>button{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; background-color: transparent; font-family:"210 Manbalchungchun R"; color:#999; font-size: 1rem;}
+    #titlepicMov>h2>span{width: 33.3333%; height: 100%; float: left; line-height: 70px; text-align: center; color:#999;}
+    #titlepicMov>h2>button:last-of-type{float: right;}
+    #titlepicMov>h2>button.select{width: 33.3333%; height: 100%; text-align: center; line-height: 70px; font-size: 1.5rem; color: #0b2f77;}
+
+#tabArea{width: 100%; height: 80%; margin-top: 10px;}
+  #pictureArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+
+.view_box{width: 80%; height: auto; min-height: 50px; border:3px solid #fff; background-color: #fff; box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.7); position: fixed; top: 5%; left:10%; z-index: 1000;}
+  .view_box>button.close{position: absolute; top: -15px; right: -20px; width: 50px; height: 50px; background-color: #fa0; border-radius: 100%; font-size: 1.5rem; line-height: 59px; text-align: center; transition: all 500ms; background-color: #0b2f77;}
+  .view_box>button.close:focus,
+  .view_box>button.close:hover{transform: rotate(180deg); background-color: #f05;}
+  .view_box>img{width: 100%; height: auto;}
+
+.left_btn>button.focus,
+.left_btn>button:focus,
+.left_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
+.right_btn>button.focus,
+.right_btn>button:focus,
+.right_btn>button:hover{background-color: rgba(0,0,0,0.5); color: rgba(255,255,255,1);}
+
+.list_box{width: 100%; height: 50%; overflow: hidden;}
+.list_box>ul{width: 95%; max-width: 1133px; height: 100%; margin-left: 7%;}
+.list_box>ul>li{width: 18vw; height: 16vw; float: left; margin-left: 5px; margin-bottom: 5px;}
+.list_box>ul>li>button{width: 100%; height: 100%; overflow: hidden; background-color: inherit;}
+.list_box>ul>li>button>img{width: 100%; height: 70%; background-size: contain;}
+.list_box>ul>li>button>p{width: 90%; height: 50px; font-size: 0.9rem; margin-left: 5%; color:#555;}
+
+  #movieArea{width: 100%; height: 0; overflow: hidden; transition: all 300ms;}
+    #tabArea>article.showPart{width: 100%; height: 100%; overflow-y: auto;}
+    .m_list_box{width: 100%; height: 50%; margin: 0 auto;}
+     .m_list_box>ul{width: 95%; max-width: 1133px; min-width: 344px; height: 100%; margin-left: 7%;}
+       .m_list_box>ul>li{width: 18vw; height: 16vw; min-height: 125px; float: left; margin-left: 5px; margin-bottom: 5px;}
+         .m_list_box>ul>li>a{display: block; width: 100%; height: 100%;}
+           .m_list_box>ul>li>a>img{width: 100%; height: 70%;}
+           .m_list_box>ul>li>a>p{width: 90%; height: 50px; font-size: 0.9rem; margin-left: 5%; color:#555; text-align: center;}
+
+.more{width: 100%; height: 30px; position: fixed; left: 0; bottom: 10px; text-align: center; line-height: 30px; background-color: #fff;}
+.more:hover,
+.more:active{background-color: #f05; color:#fff; line-height: 30px;}
 }
